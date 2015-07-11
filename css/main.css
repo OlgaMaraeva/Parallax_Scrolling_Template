@@ -1,0 +1,142 @@
+/*! HTML5 Boilerplate v5.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+ 
+  /**
+   * Copyright 2015 Codezona.com
+   * Licensed under the MIT license.
+   * http://teamdf.com/jquery-plugins/license/
+   * @author Olga Maraeva. Author's blog: http://codezona.com/
+   * @desc Parallax Scrolling template
+   */
+
+  
+   * {
+       padding: 0;
+       margin: 0;
+       -moz-box-sizing:border-box;
+       -webkit-box-sizing:border-box;
+       box-sizing:border-box;
+   }
+   html {
+       color: #222;
+       font-size: 1em;
+       line-height: 1.4;
+   }
+   body {
+       font: 14px/20px tahoma;
+       height:100%;
+       min-height:100%;
+       font-family:'Roboto Condensed', sans-serif;
+       -webkit-font-smoothing: antialiased;
+       -moz-osx-font-smoothing: grayscale;
+   }
+   /*Parallax Scrolling styles*/
+   h1, h2 {
+       font-size: 10em;
+       margin: 30% 0px 0.67em;
+       text-align: center;
+       margin-top: 25%;
+       color: #43D1FF;
+   }
+   img {
+       width:100%;
+       max-width:100%;
+   }
+   nav {
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       z-index:10;
+       text-transform:uppercase;
+       height:140px;
+   }
+   nav ul {
+       margin: 0 auto;
+       max-width:1200px;
+       text-align:right;
+       margin-top:50px;
+   }
+   nav li {
+       font-weight: bold;
+       list-style: none outside none;
+       display:inline-block;
+       line-height: 25px;
+   }
+   nav a {
+       font-size: 18px;
+       line-height: 90px;
+       color: #000000;
+       text-transform: uppercase;
+       display: block;
+       padding: 0 15px 0 16px;
+       background: none;
+       text-decoration:none;
+       -webkit-transition: color 0.5s ease, background 0.5s ease;
+       -moz-transition: color 0.5s ease, background 0.5s ease;
+       -o-transition: color 0.5s ease, background 0.5s ease;
+       transition: color 0.5s ease, background 0.5s ease;
+   }
+   nav a:hover {
+       background: #3498db;
+       color: #ffffff;
+   }
+   .active {
+       background: rgba(49, 127, 172, 0.4);
+   }
+   section.link {
+       /*margin: 100px 0;
+    padding: 20px 10px 0;
+    padding: 100px 0;*/
+       width: 100%;
+       /*max-width:1200px;*/
+       padding-bottom:10px;
+       position:relative;
+       display:block;
+       margin:0 auto;
+   }
+   .container {
+       max-width: 1200px;
+       margin: 0 auto;
+   }
+   .module {
+       padding: 10% 0;
+   }
+   section.module:last-child {
+       margin-bottom: 0;
+   }
+   section.module p {
+       margin-bottom: 40px;
+       font-size: 16px;
+       font-weight: 300;
+   }
+   section.module p:last-child {
+       margin-bottom: 0;
+   }
+   section.module.parallax {
+       padding: 10% 0;
+       background-position: 0 0;
+   }
+   section.module.parallax-1 {
+       background-image: url("http://callmenick.com/_development/advanced-parallax-effect/img/demo/pattern1.png");
+       background-size:cover;
+       background-repeat:no-repeat;
+   }
+   section.module.parallax-2 {
+       background-image: url("http://callmenick.com/_development/advanced-parallax-effect/img/demo/pattern2.png");
+   }
+   #link1, #link3, #link4, #link5 {
+       background:#eee;
+   }
+
+
+
+
+
+
+
